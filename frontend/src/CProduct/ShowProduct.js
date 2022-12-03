@@ -34,8 +34,7 @@ const CompShowProducts = () => {
         getProducts()
     }
     return (
-        <div className='container'>
-            {/* <Link to="/" className='text-center text-primary text-muted'>SHOPEE COMPANY </Link> */}    
+        <div className='container'>   
             <div className="row">
                 <div >
                     <h3>Crear Solicitud de Producto</h3>
