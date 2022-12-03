@@ -35,7 +35,7 @@ const CompShowEncuestas = () => {
     }
     return (
         <div className='container'>
-            {/* <Link to="/" className='text-center text-primary text-muted'>SHOPEE COMPANY </Link> */}
+           
             <div className="row">
                 <div >
                     <h3>Llenar Encuesta de Satisfaccion</h3>
