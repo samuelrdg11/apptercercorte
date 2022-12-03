@@ -34,8 +34,7 @@ const CompShowPqrs = () => {
     }
     return (
         <div className='container'>
-            {/* <Link to="/" className='text-center text-primary text-muted'>SHOPEE COMPANY </Link> */}
-            {/* <h2 className="text-center">{modoEdicion ? 'Editar Solicitud' : 'Solicitud de preguntauno'}</h2> */}
+
             <div className="row">
                 <div>
                     <h3>Crear Solicitud de Pqrs</h3>
