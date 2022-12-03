@@ -88,10 +88,6 @@ const CompShowEncuestas = () => {
                         ></textarea>
 
                         <div className="d-grid gap-2">
-                            {/* {
-                                modoEdicion ? <button className="btn btn-outline-warning mb-3" type="submit">Editar</button>
-                                    : <button className="btn btn-outline-primary mb-3" type="submit">Agregar</button>
-                            } */}
                             <button className="btn btn-outline-primary mb-3" type="submit">Agregar</button>
                         </div>
                     </form>
@@ -121,8 +117,6 @@ const CompShowEncuestas = () => {
                                             <td>{encuesta.sugerencia}</td>
                                             <td>
                                                 <Link to={`/editarEncu/${encuesta.id}`} className="btn btn-danger btn-sm mx-2 float-end">Editar</Link>
-                                                {/* <button className="btn btn-success btn-sm mx-2 float-end"
-                                                    onClick={() => getEncuestasById(preguntauno)}> Editar </button> */}
                                             </td>
                                             <td>
                                                 <button className="btn btn-success btn-sm mx-2 float-end"
