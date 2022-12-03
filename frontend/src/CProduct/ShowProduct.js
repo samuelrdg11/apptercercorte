@@ -99,8 +99,6 @@ const CompShowProducts = () => {
                                             <td>{producto.correo}</td>
                                             <td>
                                                 <Link to={`/editar/${producto.id}`} className="btn btn-danger btn-sm mx-2 float-end">Editar</Link>
-                                                {/* <button className="btn btn-success btn-sm mx-2 float-end"
-                                                    onClick={() => getProductsById(producto)}> Editar </button> */}
                                             </td>
                                             <td>
                                                 <button className="btn btn-success btn-sm mx-2 float-end"
