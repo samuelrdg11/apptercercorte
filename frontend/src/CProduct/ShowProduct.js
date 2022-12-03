@@ -70,10 +70,6 @@ const CompShowProducts = () => {
                         />
 
                         <div className="d-grid gap-2">
-                            {/* {
-                                modoEdicion ? <button className="btn btn-outline-warning mb-3" type="submit">Editar</button>
-                                    : <button className="btn btn-outline-primary mb-3" type="submit">Agregar</button>
-                            } */}
                             <button className="btn btn-outline-primary mb-3" type="submit">Agregar</button>
                         </div>
                     </form>
